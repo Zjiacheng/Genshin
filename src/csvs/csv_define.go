@@ -1,0 +1,32 @@
+package csvs
+
+//逻辑常量
+const (
+	LOGIC_FALSE = 0
+	LOGIC_TRUE  = 1
+)
+
+//世界等级常量
+const (
+	REDUCE_WORLD_LEVEL_STATE = 5
+	REDUCE_WORLD_LEVEL_MAX   = 1
+	REDUCE_WORLD_LEVEL_COOL  = 10
+)
+
+//角色转换
+const (
+	ADD_ROLE_TIME_NORMAL_MIN = 2
+	ADD_ROLE_TIME_NORMAL_MAX = 7
+)
+
+//武器
+const (
+	WEAPEN_MAX_NUM = 2000
+)
+const Relics_MAX_NUM = 1500
+const (
+	FIVE_STAR_TIMES_LIMIT            = 73
+	FIVE_STAR_TIMES_LIMIT_EACH_VALUE = 600
+	FOUR_STAR_TIMES_LIMIT            = 9
+	FOUR_STAR_TIMES_LIMIT_EACH_VALUE = 5100
+)
